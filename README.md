@@ -29,30 +29,6 @@
 - **SQLite** - Base de données embarquée
 - **Architecture MVC** - Organisation du code
 
-## 📁 Structure du Projet
-shopmanage/
-│
-├── src/
-│   ├── main/
-│       ├── java/com/boutique/
-│       │   ├── controllers/        # Logique des pages (JavaFX)
-│       │   ├── models/             # Classes : Produit, Vente, Utilisateur...
-│       │   ├── dao/                # SQLite CRUD
-│       │   ├── services/           # Logique métier
-│       │   ├── utils/              # Helpers
-│       │   └── App.java            # Main
-│       │
-│       ├── resources/
-│       │   ├── views/              # FXML
-│       │   ├── css/                # Styles
-│       │   └── images/             # Images produits
-│       │
-│       └── db/
-│           └── boutique.db         # Base SQLite
-│
-├── README.md
-└── pom.xml / build.gradle
-
 
 ## 🏗️ Architecture
 
@@ -67,7 +43,7 @@ L'application suit une architecture **MVC (Modèle-Vue-Contrôleur)** avec sépa
 ## 👥 Équipe de Développement
 
 - **Personne 1** - Base de données et infrastructure
-- **Personne 2** - Modèles de données
+- **Moussa Ben Traore** - Modèles de données
 - **Personne 3** - Accès aux données (DAO)
 - **Personne 4** - Services métier
 - **Personne 5** - Interface administrateur
