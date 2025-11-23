@@ -42,7 +42,7 @@ L'application suit une architecture **MVC (Modèle-Vue-Contrôleur)** avec sépa
 
 ## 👥 Équipe de Développement
 
-- **Personne 1** - Base de données et infrastructure
+- **ELIE EHOUSSOU** - Base de données et infrastructure
 - **Moussa Ben Traore** - Modèles de données
 - **Elie EHOUSSOU** - Accès aux données (DAO)
 - **EDIKE SAMUEL** - Services métier
