@@ -48,7 +48,7 @@ L'application suit une architecture **MVC (Modèle-Vue-Contrôleur)** avec sépa
 - **Personne 4** - Services métier
 - **Personne 5** - Interface administrateur
 - **Personne 6** - Interface vendeur
-- **Personne 7** - Authentification et sécurité
+- **ELIE EHOUSSOU** - Authentification et sécurité
 
 ## 📦 Installation et Démarrage
 
