@@ -46,8 +46,8 @@ L'application suit une architecture **MVC (Modèle-Vue-Contrôleur)** avec sépa
 - **Moussa Ben Traore** - Modèles de données
 - **SILUÉ YACOUBA** - Accès aux données (DAO)
 - **EDIKE SAMUEL** - Services métier
-- **Lamine Touré** - Interface administrateur
-- **Personne 6** - Interface vendeur
+- **Personne 5** - Interface administrateur
+- **Lamine Touré** - Interface vendeur
 - **ELIE EHOUSSOU** - Authentification et sécurité
 
 ## 📦 Installation et Démarrage
