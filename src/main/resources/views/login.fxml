@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.shopmanage.controllers.LoginController"
+            prefWidth="400" prefHeight="350">
+
+    <children>
+        <!-- Titre -->
+        <Label text="Connexion" layoutX="150" layoutY="20" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+
+        <!-- Username -->
+        <Label text="Nom d'utilisateur:" layoutX="50" layoutY="80"/>
+        <TextField fx:id="usernameField" layoutX="160" layoutY="75" prefWidth="180"/>
+
+        <!-- Password -->
+        <Label text="Mot de passe:" layoutX="50" layoutY="130"/>
+        <PasswordField fx:id="passwordField" layoutX="160" layoutY="125" prefWidth="180"/>
+
+        <!-- Message Label -->
+        <Label fx:id="messageLabel" layoutX="50" layoutY="180" prefWidth="290" wrapText="true"/>
+
+        <!-- Bouton login -->
+        <Button fx:id="loginButton" text="Se connecter" layoutX="50" layoutY="220" prefWidth="120" onAction="#onLoginClicked"/>
+
+        <!-- Lien register -->
+        <Hyperlink fx:id="registerLink" text="S'inscrire" layoutX="220" layoutY="220" onAction="#goToRegister"/>
+    </children>
+
+</AnchorPane>

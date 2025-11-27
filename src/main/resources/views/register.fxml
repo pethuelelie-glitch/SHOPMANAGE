@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.shopmanage.controllers.RegisterController"
+            prefWidth="400" prefHeight="500">
+
+    <children>
+        <Label text="Inscription" layoutX="150" layoutY="20" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+
+        <!-- Username -->
+        <Label text="Nom d'utilisateur:" layoutX="50" layoutY="70"/>
+        <TextField fx:id="usernameField" layoutX="160" layoutY="65" prefWidth="180"/>
+
+        <!-- Email -->
+        <Label text="Email:" layoutX="50" layoutY="120"/>
+        <TextField fx:id="emailField" layoutX="160" layoutY="115" prefWidth="180"/>
+
+        <!-- Full Name -->
+        <Label text="Nom complet:" layoutX="50" layoutY="170"/>
+        <TextField fx:id="fullNameField" layoutX="160" layoutY="165" prefWidth="180"/>
+
+        <!-- Password -->
+        <Label text="Mot de passe:" layoutX="50" layoutY="220"/>
+        <PasswordField fx:id="passwordField" layoutX="160" layoutY="215" prefWidth="180"/>
+
+        <!-- Confirm Password -->
+        <Label text="Confirmer mot de passe:" layoutX="50" layoutY="270"/>
+        <PasswordField fx:id="confirmPasswordField" layoutX="160" layoutY="265" prefWidth="180"/>
+
+        <!-- Role -->
+        <Label text="Rôle:" layoutX="50" layoutY="320"/>
+        <ComboBox fx:id="roleComboBox" layoutX="160" layoutY="315" prefWidth="180"/>
+
+        <!-- Message Label -->
+        <Label fx:id="messageLabel" layoutX="50" layoutY="370" prefWidth="290" wrapText="true"/>
+
+        <!-- Bouton register -->
+        <Button fx:id="registerButton" text="S'inscrire" layoutX="140" layoutY="410" prefWidth="120" onAction="#onRegisterClicked"/>
+    </children>
+</AnchorPane>

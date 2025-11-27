@@ -1,0 +1,15 @@
+.root-pane {
+    -fx-padding: 20;
+    -fx-background-color: #f0f4f7;
+    -fx-font-family: "Arial";
+}
+
+.title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.error-label {
+    -fx-text-fill: red;
+    -fx-font-size: 12px;
+}

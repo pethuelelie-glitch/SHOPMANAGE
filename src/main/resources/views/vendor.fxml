@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.shopmanage.controllers.VendorController"
+      spacing="10" padding="10" styleClass="root-pane">
+
+    <Label text="Tableau de bord Vendeur" styleClass="title"/>
+
+    <TableView fx:id="productTable" prefHeight="250">
+        <columns>
+            <TableColumn fx:id="colName" text="Nom" prefWidth="150"/>
+            <TableColumn fx:id="colPrice" text="Prix" prefWidth="100"/>
+            <TableColumn fx:id="colStock" text="Stock" prefWidth="100"/>
+        </columns>
+    </TableView>
+
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <Label text="Quantité:"/>
+        <Spinner fx:id="quantitySpinner"/>
+        <Button text="Vendre" onAction="#confirmSale"/>
+    </HBox>
+
+    <Button text="Se déconnecter" onAction="#logout" maxWidth="150"/>
+</VBox>

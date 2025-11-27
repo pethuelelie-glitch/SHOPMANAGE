@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/20"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.shopmanage.controllers.AdminController"
+      spacing="10"
+      style="-fx-padding: 10;"
+      styleClass="root-pane">
+
+    <!-- Titre -->
+    <Label text="Tableau de bord Admin" style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+
+    <!-- Table des produits -->
+    <TableView fx:id="productTable" prefHeight="250">
+        <columns>
+            <TableColumn fx:id="colName" text="Nom" prefWidth="150"/>
+            <TableColumn fx:id="colPrice" text="Prix" prefWidth="100"/>
+            <TableColumn fx:id="colStock" text="Stock" prefWidth="100"/>
+        </columns>
+    </TableView>
+
+    <!-- Formulaire ajout produit -->
+    <HBox spacing="10">
+        <TextField fx:id="nameField" promptText="Nom"/>
+        <TextField fx:id="priceField" promptText="Prix"/>
+        <TextField fx:id="stockField" promptText="Stock"/>
+        <Button text="Ajouter" onAction="#addProduct"/>
+    </HBox>
+
+    <!-- Bouton déconnexion -->
+    <Button text="Se déconnecter" onAction="#logout" maxWidth="150"/>
+</VBox>
